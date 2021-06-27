@@ -19,6 +19,18 @@
                     "title": {
                         "type": "string"
                     },
+                    "reading": {
+                        "type": "dict",
+                        "required": false,
+                        "schema": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    },
                     "videos": {
                         "type": "list",
                         "schema": {
@@ -56,7 +68,11 @@
                                 "title": "Causality",
                                 "url": "https://youtu.be/DNnagCkxeYw"
                             }
-                        ]
+                        ],
+                        "reading": {
+                            "title": "Chapters 1.1 and 1.2",
+                            "url": "https://eldridgejm.github.io/dive_into_data_science/01-getting_started/tools.html"
+                        }
                     },
                     "artifacts": {
                         "blank/export.zip": {
@@ -88,7 +104,11 @@
                                 "title": "Submitting Assignments",
                                 "url": "https://youtu.be/tNuZe6iAPF0"
                             }
-                        ]
+                        ],
+                        "reading": {
+                            "title": "Chapters 1.3-1.6",
+                            "url": "https://eldridgejm.github.io/dive_into_data_science/01-getting_started/expressions.html"
+                        }
                     },
                     "artifacts": {
                         "blank/export.zip": {
@@ -113,7 +133,11 @@
                                 "title": "Tables",
                                 "url": "https://youtu.be/ZRI3Zlc2D9g"
                             }
-                        ]
+                        ],
+                        "reading": {
+                            "title": "Chapters 2.1-2.3",
+                            "url": "https://eldridgejm.github.io/dive_into_data_science/02-data_sets/arrays.html"
+                        }
                     },
                     "artifacts": {
                         "blank/export.zip": {
@@ -138,7 +162,11 @@
                                 "title": "GroupBy",
                                 "url": "https://www.youtube.com/watch?v=MH3-_OCOGDQ"
                             }
-                        ]
+                        ],
+                        "reading": {
+                            "title": "Chapters 2.4 and 2.5",
+                            "url": "https://eldridgejm.github.io/dive_into_data_science/02-data_sets/querying.html"
+                        }
                     },
                     "artifacts": {
                         "blank/export.zip": {
@@ -178,37 +206,15 @@
                     },
                     "due": {
                         "type": "smartdatetime"
+                    },
+                    "topics": {
+                        "type": "string"
                     }
                 },
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {
-                "01-python_basics": {
-                    "metadata": {
-                        "number": 1,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-06-29 23:59:00"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "labs/01-python_basics/export.zip"
-                        }
-                    }
-                },
-                "02-arrays_tables": {
-                    "metadata": {
-                        "number": 2,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-07-02 23:59:00"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "labs/02-arrays_tables/export.zip"
-                        }
-                    }
-                }
-            }
+            "publications": {}
         },
         "homeworks": {
             "schema": {
@@ -225,37 +231,15 @@
                     },
                     "due": {
                         "type": "smartdatetime"
+                    },
+                    "topics": {
+                        "type": "string"
                     }
                 },
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {
-                "01-python_basics": {
-                    "metadata": {
-                        "number": 1,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-07-01 23:59:00"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "homeworks/01-python_basics/export.zip"
-                        }
-                    }
-                },
-                "02-arrays_tables": {
-                    "metadata": {
-                        "number": 2,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-07-04 23:59:00"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "homeworks/02-arrays_tables/export.zip"
-                        }
-                    }
-                }
-            }
+            "publications": {}
         },
         "default": {
             "schema": {
