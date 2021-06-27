@@ -1,0 +1,230 @@
+{
+    "collections": {
+        "lectures": {
+            "schema": {
+                "required_artifacts": [
+                    "blank/export.zip",
+                    "filled/export.zip"
+                ],
+                "optional_artifacts": [
+                    "slides.pdf"
+                ],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "date": {
+                        "type": "smartdate"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "videos": {
+                        "type": "list",
+                        "schema": {
+                            "type": "dict",
+                            "schema": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "number": 1,
+                        "title": "Introduction",
+                        "date": "2021-06-27 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Introduction",
+                                "url": "https://www.youtube.com/watch?v=H83mCDsT-Ak"
+                            },
+                            {
+                                "title": "Syllabus",
+                                "url": "https://youtu.be/buDTgSeO_2Q"
+                            },
+                            {
+                                "title": "Causality",
+                                "url": "https://youtu.be/DNnagCkxeYw"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/01-intro/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/01-intro/filled/export.zip"
+                        },
+                        "slides.pdf": {
+                            "path": "lectures/01-intro/slides.pdf"
+                        }
+                    }
+                },
+                "02-expressions_types": {
+                    "metadata": {
+                        "number": 2,
+                        "title": "Basic Python",
+                        "date": "2021-06-27 00:00:00",
+                        "videos": [
+                            {
+                                "title": "First Python Code",
+                                "url": "https://youtu.be/qiGAZPEu7CM"
+                            },
+                            {
+                                "title": "Types",
+                                "url": "https://youtu.be/O_P5RjaDQdo"
+                            },
+                            {
+                                "title": "Submitting Assignments",
+                                "url": "https://youtu.be/tNuZe6iAPF0"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/02-expressions_types/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/02-expressions_types/filled/export.zip"
+                        }
+                    }
+                },
+                "03-tables": {
+                    "metadata": {
+                        "number": 3,
+                        "title": "Arrays and Tables",
+                        "date": "2021-06-27 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Arrays",
+                                "url": "https://youtu.be/PnBzu02fGJ0"
+                            },
+                            {
+                                "title": "Tables",
+                                "url": "https://youtu.be/ZRI3Zlc2D9g"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/03-tables/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/03-tables/filled/export.zip"
+                        }
+                    }
+                },
+                "04-queries_groupby": {
+                    "metadata": {
+                        "number": 4,
+                        "title": "Querying and Groupby",
+                        "date": "2021-06-27 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Querying (Boolean Indexing)",
+                                "url": "https://www.youtube.com/watch?v=etx5Pz1JPw8"
+                            },
+                            {
+                                "title": "GroupBy",
+                                "url": "https://www.youtube.com/watch?v=MH3-_OCOGDQ"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/04-queries_groupby/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/04-queries_groupby/filled/export.zip"
+                        }
+                    }
+                }
+            }
+        },
+        "homeworks": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {}
+        },
+        "discussions": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {}
+        },
+        "labs": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {}
+        },
+        "default": {
+            "schema": {
+                "required_artifacts": [],
+                "optional_artifacts": null,
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": true,
+                "is_ordered": false
+            },
+            "publications": {
+                "reference": {
+                    "metadata": {},
+                    "artifacts": {
+                        "reference.pdf": {
+                            "path": "default/reference/reference.pdf"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
