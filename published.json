@@ -151,19 +151,7 @@
                 }
             }
         },
-        "discussions": {
-            "schema": {
-                "required_artifacts": [
-                    "export.zip"
-                ],
-                "optional_artifacts": [],
-                "metadata_schema": null,
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {}
-        },
-        "labs": {
+        "homeworks": {
             "schema": {
                 "required_artifacts": [
                     "export.zip"
@@ -185,7 +173,19 @@
             },
             "publications": {}
         },
-        "homeworks": {
+        "discussions": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {}
+        },
+        "labs": {
             "schema": {
                 "required_artifacts": [
                     "export.zip"
