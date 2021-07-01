@@ -189,7 +189,16 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {}
+            "publications": {
+                "01-python_basics_arrays_tables": {
+                    "metadata": {},
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/01-python_basics_arrays_tables/export.zip"
+                        }
+                    }
+                }
+            }
         },
         "labs": {
             "schema": {
