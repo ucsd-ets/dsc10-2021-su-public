@@ -179,19 +179,86 @@
                 }
             }
         },
+        "homeworks": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "topics": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-python_basics": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2021-06-27 00:00:00",
+                        "due": "2021-07-02 23:59:00",
+                        "topics": "lectures 01 and 02"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/01-python_basics/export.zip"
+                        }
+                    }
+                },
+                "02-arrays_tables": {
+                    "metadata": {
+                        "number": 2,
+                        "released": "2021-06-27 00:00:00",
+                        "due": "2021-07-05 23:59:00",
+                        "topics": "lectures 03 and 04"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/02-arrays_tables/export.zip"
+                        }
+                    }
+                }
+            }
+        },
         "discussions": {
             "schema": {
                 "required_artifacts": [
                     "export.zip"
                 ],
                 "optional_artifacts": [],
-                "metadata_schema": null,
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "datetime": {
+                        "type": "smartdate"
+                    },
+                    "recording": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
             "publications": {
                 "01-python_basics_arrays_tables": {
-                    "metadata": {},
+                    "metadata": {
+                        "number": 1,
+                        "datetime": "2021-07-01 13:00:00",
+                        "recording": null
+                    },
                     "artifacts": {
                         "export.zip": {
                             "path": "discussions/01-python_basics_arrays_tables/export.zip"
@@ -247,58 +314,6 @@
                     "artifacts": {
                         "export.zip": {
                             "path": "labs/02-arrays_tables/export.zip"
-                        }
-                    }
-                }
-            }
-        },
-        "homeworks": {
-            "schema": {
-                "required_artifacts": [
-                    "export.zip"
-                ],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "number": {
-                        "type": "integer"
-                    },
-                    "released": {
-                        "type": "smartdatetime"
-                    },
-                    "due": {
-                        "type": "smartdatetime"
-                    },
-                    "topics": {
-                        "type": "string"
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01-python_basics": {
-                    "metadata": {
-                        "number": 1,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-07-02 23:59:00",
-                        "topics": "lectures 01 and 02"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "homeworks/01-python_basics/export.zip"
-                        }
-                    }
-                },
-                "02-arrays_tables": {
-                    "metadata": {
-                        "number": 2,
-                        "released": "2021-06-27 00:00:00",
-                        "due": "2021-07-05 23:59:00",
-                        "topics": "lectures 03 and 04"
-                    },
-                    "artifacts": {
-                        "export.zip": {
-                            "path": "homeworks/02-arrays_tables/export.zip"
                         }
                     }
                 }
