@@ -267,6 +267,31 @@
                 }
             }
         },
+        "projects": {
+            "schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "number": {
+                        "type": "integer"
+                    },
+                    "released": {
+                        "type": "smartdatetime"
+                    },
+                    "due": {
+                        "type": "smartdatetime"
+                    },
+                    "topics": {
+                        "type": "string"
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {}
+        },
         "homeworks": {
             "schema": {
                 "required_artifacts": [
