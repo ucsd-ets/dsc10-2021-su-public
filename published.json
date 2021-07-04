@@ -176,6 +176,134 @@
                             "path": "lectures/04-queries_groupby/filled/export.zip"
                         }
                     }
+                },
+                "05-visualization": {
+                    "metadata": {
+                        "number": 5,
+                        "title": "Plotting",
+                        "date": "2021-07-04 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Intro",
+                                "url": "https://youtu.be/5Qcmomap47c"
+                            },
+                            {
+                                "title": "Scatter Plots",
+                                "url": "https://youtu.be/2THOnNQOGQw"
+                            },
+                            {
+                                "title": "Line Plots",
+                                "url": "https://youtu.be/Oobjl8Qx3e4"
+                            },
+                            {
+                                "title": "Bar Graphs",
+                                "url": "https://youtu.be/02HkbPPQEhA"
+                            },
+                            {
+                                "title": "Histograms",
+                                "url": "https://youtu.be/BuMjvOk8JSs"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/05-visualization/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/05-visualization/filled/export.zip"
+                        }
+                    }
+                },
+                "06-functions_apply": {
+                    "metadata": {
+                        "number": 6,
+                        "title": "Overlaying Plots, Functions, Apply",
+                        "date": "2021-07-04 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Overlaid Plots",
+                                "url": "https://youtu.be/S2enqP2TQEU"
+                            },
+                            {
+                                "title": "Functions",
+                                "url": "https://youtu.be/yXr6McJO1e8"
+                            },
+                            {
+                                "title": "Apply",
+                                "url": "https://youtu.be/sbkpXSJIBK4"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/06-functions_apply/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/06-functions_apply/filled/export.zip"
+                        }
+                    }
+                },
+                "07-group_merge_conditionals_iteration": {
+                    "metadata": {
+                        "number": 7,
+                        "title": "Group, Merge, Conditionals, Iteration",
+                        "date": "2021-07-04 00:00:00",
+                        "videos": [
+                            {
+                                "title": "More GroupBy",
+                                "url": "https://youtu.be/xZ5HgJjUvJ0"
+                            },
+                            {
+                                "title": "Merge",
+                                "url": "https://youtu.be/jboCG36oXe8"
+                            },
+                            {
+                                "title": "Conditionals and Iteration",
+                                "url": "https://youtu.be/jiZzL1apMlE"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/07-group_merge_conditionals_iteration/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/07-group_merge_conditionals_iteration/filled/export.zip"
+                        }
+                    }
+                },
+                "08-simulation": {
+                    "metadata": {
+                        "number": 8,
+                        "title": "Probability and Sampling",
+                        "date": "2021-07-04 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Probability",
+                                "url": "https://youtu.be/Ly7DmcsVBmA"
+                            },
+                            {
+                                "title": "np.random.choice",
+                                "url": "https://youtu.be/HRicFb-Yy8s"
+                            },
+                            {
+                                "title": "Simulation",
+                                "url": "https://youtu.be/3vvI5G6BMts"
+                            },
+                            {
+                                "title": "Monty Hall",
+                                "url": "https://youtu.be/nTFFcBu7Aj0"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/08-simulation/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/08-simulation/filled/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -290,7 +418,21 @@
                 "allow_unspecified_artifacts": false,
                 "is_ordered": true
             },
-            "publications": {}
+            "publications": {
+                "01-chicago_taxis": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "2021-07-04 00:00:00",
+                        "due": "2021-07-12 23:59:00",
+                        "topics": "lectures 01 through 07"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "projects/01-chicago_taxis/export.zip"
+                        }
+                    }
+                }
+            }
         },
         "homeworks": {
             "schema": {

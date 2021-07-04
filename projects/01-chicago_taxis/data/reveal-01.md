@@ -1,0 +1,1 @@
+Notice how the bin from 50 cents to one dollar is non-empty. According to the rules for calculating fees, it should not be possible for there to be a fee of this amount. The smallest possible non-zero fee is one dollar for the first additional passenger. If there are three passengers, the fee would be \\$1.50.

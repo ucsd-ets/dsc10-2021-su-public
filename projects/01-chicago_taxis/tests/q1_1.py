@@ -1,0 +1,11 @@
+test = {   'name': 'q1_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': ">>> trips_with_start_times.loc['12f56b557cbad2cea23a982aff90997147d1251b', 'start_year']\n2019", 'hidden': False, 'locked': False},
+                                   {'code': ">>> trips_with_start_times.loc['12f56b557cbad2cea23a982aff90997147d1251b', 'start_month']\n9", 'hidden': False, 'locked': False},
+                                   {'code': ">>> trips_with_start_times.loc['12f56b557cbad2cea23a982aff90997147d1251b', 'start_day']\n27", 'hidden': False, 'locked': False},
+                                   {'code': ">>> trips_with_start_times.loc['12f56b557cbad2cea23a982aff90997147d1251b', 'start_weekday']\n4", 'hidden': False, 'locked': False},
+                                   {'code': ">>> trips_with_start_times.loc['12f56b557cbad2cea23a982aff90997147d1251b', 'start_hour']\n19", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
