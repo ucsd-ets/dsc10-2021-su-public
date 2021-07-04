@@ -1,0 +1,11 @@
+test = {   'name': 'q4_4',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> callable(mean_values)\nTrue', 'hidden': False, 'locked': False},
+                                   {   'code': ">>> import numbers;\n>>> isinstance(mean_values('France'), float) or isinstance(mean_values('France'), numbers.Integral)\nTrue",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> import math;\n>>> math.isclose(mean_values('United States'), 14.00918, rel_tol=1e-4)\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
