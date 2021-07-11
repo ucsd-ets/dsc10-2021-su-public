@@ -304,6 +304,118 @@
                             "path": "lectures/08-simulation/filled/export.zip"
                         }
                     }
+                },
+                "09-sampling": {
+                    "metadata": {
+                        "number": 9,
+                        "title": "Sampling",
+                        "date": "2021-07-11 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Sampling",
+                                "url": "https://youtu.be/JOysFpWBWvA"
+                            },
+                            {
+                                "title": "Distributions",
+                                "url": "https://youtu.be/KWoFEvcu1iM"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/09-sampling/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/09-sampling/filled/export.zip"
+                        }
+                    }
+                },
+                "10-models_and_statistics": {
+                    "metadata": {
+                        "number": 10,
+                        "title": "Models",
+                        "date": "2021-07-11 00:00:00",
+                        "videos": [
+                            {
+                                "title": "German Plane Problem",
+                                "url": "https://youtu.be/OkcaHPrhhfQ"
+                            },
+                            {
+                                "title": "Racially Biased Jury Panel",
+                                "url": "https://youtu.be/Wvnr0V0bQh8"
+                            },
+                            {
+                                "title": "Mendel's Peas",
+                                "url": "https://youtu.be/V3-yofcDMyI"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/10-models_and_statistics/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/10-models_and_statistics/filled/export.zip"
+                        }
+                    }
+                },
+                "11-hypothesis_testing": {
+                    "metadata": {
+                        "number": 11,
+                        "title": "Hypothesis Testing",
+                        "date": "2021-07-11 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Test Statistics",
+                                "url": "https://youtu.be/_4QJSuUGF48"
+                            },
+                            {
+                                "title": "Total Variation Distance",
+                                "url": "https://youtu.be/2nuQmAQcfmA"
+                            },
+                            {
+                                "title": "Hypothesis Testing and p-Values",
+                                "url": "https://www.youtube.com/watch?v=Jbgl-ON4OpE"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/11-hypothesis_testing/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/11-hypothesis_testing/filled/export.zip"
+                        }
+                    }
+                },
+                "12-ab_testing": {
+                    "metadata": {
+                        "number": 12,
+                        "title": "A/B Testing",
+                        "date": "2021-07-11 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Permutation Tests",
+                                "url": "https://youtu.be/MYIgozZNHqk"
+                            },
+                            {
+                                "title": "Deflategate",
+                                "url": "https://youtu.be/gpZQT0bymaU"
+                            },
+                            {
+                                "title": "Causality",
+                                "url": "https://youtu.be/e75vwJaE65E"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/12-ab_testing/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/12-ab_testing/filled/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -430,6 +542,19 @@
                             "path": "labs/04-conditionals_iteration/export.zip"
                         }
                     }
+                },
+                "05-hypothesis_testing": {
+                    "metadata": {
+                        "number": 5,
+                        "released": "2021-07-11 00:00:00",
+                        "due": "2021-07-17 23:59:00",
+                        "topics": "lectures 09-12"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/05-hypothesis_testing/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -532,6 +657,32 @@
                     "artifacts": {
                         "export.zip": {
                             "path": "homeworks/03-functions/export.zip"
+                        }
+                    }
+                },
+                "04-simulation": {
+                    "metadata": {
+                        "number": 4,
+                        "released": "2021-07-11 00:00:00",
+                        "due": "2021-07-16 23:59:00",
+                        "topics": "lectures 09 and 10"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/04-simulation/export.zip"
+                        }
+                    }
+                },
+                "05-hypothesis": {
+                    "metadata": {
+                        "number": 5,
+                        "released": "2021-07-11 00:00:00",
+                        "due": "2021-07-19 23:59:00",
+                        "topics": "lectures 11 and 12"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/05-hypothesis/export.zip"
                         }
                     }
                 }

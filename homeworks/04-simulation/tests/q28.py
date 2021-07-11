@@ -1,0 +1,11 @@
+test = {   'name': 'q28',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> type(sampling_q8) == int\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0 < sampling_q8 < 5\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> sampling_q8 != 4\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> sampling_q8 != 2\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> sampling_q8 != 3\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
