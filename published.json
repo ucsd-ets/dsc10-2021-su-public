@@ -464,6 +464,18 @@
                             "path": "discussions/02-plotting_sim_midterm_review/export.zip"
                         }
                     }
+                },
+                "03-hypo_perm_testing": {
+                    "metadata": {
+                        "number": 3,
+                        "datetime": "2021-07-15 13:00:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/03-hypo_perm_testing/export.zip"
+                        }
+                    }
                 }
             }
         },
