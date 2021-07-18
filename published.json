@@ -416,6 +416,114 @@
                             "path": "lectures/12-ab_testing/filled/export.zip"
                         }
                     }
+                },
+                "13-bootstrap": {
+                    "metadata": {
+                        "number": 13,
+                        "title": "The Bootstrap",
+                        "date": "2021-07-18 00:00:00",
+                        "videos": [
+                            {
+                                "title": "The Bootstrap",
+                                "url": "https://youtu.be/UA3BaNcUgi8"
+                            },
+                            {
+                                "title": "Bootstrapped Confidence Intervals",
+                                "url": "https://youtu.be/mv-soTb_fu8"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/13-bootstrap/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/13-bootstrap/filled/export.zip"
+                        }
+                    }
+                },
+                "14-ci_mean_spread": {
+                    "metadata": {
+                        "number": 14,
+                        "title": "CIs, Mean, Spread",
+                        "date": "2021-07-18 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Bootstrap Review",
+                                "url": "https://youtu.be/5Z-G7vte3kU"
+                            },
+                            {
+                                "title": "CIs and Testing",
+                                "url": "https://youtu.be/hxnZtV0HbH0"
+                            },
+                            {
+                                "title": "Mean and Spread",
+                                "url": "https://youtu.be/yoolO7P1qhg"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/14-ci_mean_spread/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/14-ci_mean_spread/filled/export.zip"
+                        }
+                    }
+                },
+                "15-clt": {
+                    "metadata": {
+                        "number": 15,
+                        "title": "The Normal Distribution",
+                        "date": "2021-07-18 00:00:00",
+                        "videos": [
+                            {
+                                "title": "The Normal Curve",
+                                "url": "https://youtu.be/eHMdyZ7vg_Y"
+                            },
+                            {
+                                "title": "The Central Limit Theorem",
+                                "url": "https://youtu.be/dB50PhIsZpQ"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/15-clt/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/15-clt/filled/export.zip"
+                        }
+                    }
+                },
+                "16-normal_ci": {
+                    "metadata": {
+                        "number": 16,
+                        "title": "Normal Confidence Intervals",
+                        "date": "2021-07-18 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Recap of CLT",
+                                "url": "https://youtu.be/k1sBFHywk2M"
+                            },
+                            {
+                                "title": "Normal CIs",
+                                "url": "https://youtu.be/iLoDYe4_Du4"
+                            },
+                            {
+                                "title": "CLT and Hypothesis Testing",
+                                "url": "https://youtu.be/0ADUGVNxglY"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/16-normal_ci/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/16-normal_ci/filled/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -567,6 +675,32 @@
                             "path": "labs/05-hypothesis_testing/export.zip"
                         }
                     }
+                },
+                "06-resampling_and_the_bootstrap": {
+                    "metadata": {
+                        "number": 6,
+                        "released": "2021-07-18 00:00:00",
+                        "due": "2021-07-21 23:59:00",
+                        "topics": "lectures 13 and 14"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/06-resampling_and_the_bootstrap/export.zip"
+                        }
+                    }
+                },
+                "07-why_the_mean_matters_in_school_life": {
+                    "metadata": {
+                        "number": 7,
+                        "released": "2021-07-18 00:00:00",
+                        "due": "2021-07-24 23:59:00",
+                        "topics": "lectures 15 and 16"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/07-why_the_mean_matters_in_school_life/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -695,6 +829,32 @@
                     "artifacts": {
                         "export.zip": {
                             "path": "homeworks/05-hypothesis/export.zip"
+                        }
+                    }
+                },
+                "06-bootstrap": {
+                    "metadata": {
+                        "number": 6,
+                        "released": "2021-07-18 00:00:00",
+                        "due": "2021-07-23 23:59:00",
+                        "topics": "lectures 13 and 14"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/06-bootstrap/export.zip"
+                        }
+                    }
+                },
+                "07-confidence_intervals": {
+                    "metadata": {
+                        "number": 7,
+                        "released": "2021-07-18 00:00:00",
+                        "due": "2021-07-26 23:59:00",
+                        "topics": "lectures 15 and 16"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "homeworks/07-confidence_intervals/export.zip"
                         }
                     }
                 }
