@@ -584,6 +584,18 @@
                             "path": "discussions/03-hypo_perm_testing/export.zip"
                         }
                     }
+                },
+                "04- CI_normal_CLT": {
+                    "metadata": {
+                        "number": 4,
+                        "datetime": "2021-07-22 13:00:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/04- CI_normal_CLT/export.zip"
+                        }
+                    }
                 }
             }
         },
