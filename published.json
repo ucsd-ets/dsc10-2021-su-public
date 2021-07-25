@@ -528,6 +528,64 @@
                             "path": "lectures/16-normal_ci/filled/export.zip"
                         }
                     }
+                },
+                "17-regression": {
+                    "metadata": {
+                        "number": 17,
+                        "title": "Regression",
+                        "date": "2021-07-25 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Prediction",
+                                "url": "https://youtu.be/fqz3ks4InpU"
+                            },
+                            {
+                                "title": "Correlation",
+                                "url": "https://youtu.be/s4KeLovok0c"
+                            },
+                            {
+                                "title": "Regression",
+                                "url": "https://youtu.be/4OwfQvp2YG4"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/17-regression/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/17-regression/filled/export.zip"
+                        }
+                    }
+                },
+                "18-more_regression": {
+                    "metadata": {
+                        "number": 18,
+                        "title": "More Regression",
+                        "date": "2021-07-25 00:00:00",
+                        "videos": [
+                            {
+                                "title": "Root Mean Squared Error",
+                                "url": "https://youtu.be/UFzrmQdJID4"
+                            },
+                            {
+                                "title": "Residuals",
+                                "url": "https://youtu.be/OYG_KC4-Ceg"
+                            },
+                            {
+                                "title": "Confidence",
+                                "url": "https://youtu.be/V1dy5md7jVY"
+                            }
+                        ]
+                    },
+                    "artifacts": {
+                        "blank/export.zip": {
+                            "path": "lectures/18-more_regression/blank/export.zip"
+                        },
+                        "filled/export.zip": {
+                            "path": "lectures/18-more_regression/filled/export.zip"
+                        }
+                    }
                 }
             }
         },
@@ -715,6 +773,19 @@
                     "artifacts": {
                         "export.zip": {
                             "path": "labs/07-why_the_mean_matters_in_school_life/export.zip"
+                        }
+                    }
+                },
+                "08-regression": {
+                    "metadata": {
+                        "number": 8,
+                        "released": "2021-07-25 00:00:00",
+                        "due": "2021-07-28 23:59:00",
+                        "topics": "lectures 17 and 18"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "labs/08-regression/export.zip"
                         }
                     }
                 }
