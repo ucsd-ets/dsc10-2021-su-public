@@ -1,0 +1,11 @@
+test = {   'name': 'q1_6',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': ">>> df_bool.get('is_valid').loc[1]\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> df_bool.get('is_found').loc[1] == False\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> df_bool.get('is_valid').sum()\n38331", 'hidden': False, 'locked': False},
+                                   {'code': ">>> df_bool.get('is_found').sum()\n37304", 'hidden': False, 'locked': False},
+                                   {'code': ">>> ('nametype' not in df_bool.columns) and ('fall' not in df_bool.columns)\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

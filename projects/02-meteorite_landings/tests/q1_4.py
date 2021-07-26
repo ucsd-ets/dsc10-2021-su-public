@@ -1,0 +1,10 @@
+test = {   'name': 'q1_4',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': ">>> df_with_year.get('year').loc[370] == 1902\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> import numbers;\n>>> isinstance(extract_year('01/01/1976 12:00:00 AM'), numbers.Real)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> import numbers;\n>>> isinstance(df_with_year.get('year').loc[1], numbers.Real)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isnan(df_with_year.iloc[37].get('year'))\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

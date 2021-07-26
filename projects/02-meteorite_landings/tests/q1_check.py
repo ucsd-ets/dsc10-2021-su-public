@@ -1,0 +1,10 @@
+test = {   'name': 'q1_check',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> for x in sorted(df.columns):\n...     print(x)\ncontinent\ndecade\nis_found\nis_valid\nlatitude\nlongitude\nmass (g)\nname\nrecclass\nyear\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> df.index.name\n'id'", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

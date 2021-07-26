@@ -1,0 +1,10 @@
+test = {   'name': 'q1_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': ">>> ('latitude' in df_with_lat_lon.columns) and ('longitude' in df_with_lat_lon.columns)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> 'GeoLocation' not in df_with_lat_lon.columns\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> df_with_lat_lon.loc[30000].get('latitude') == -71.5\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> 35.6 < df_with_lat_lon.loc[30000].get('longitude') < 35.7\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

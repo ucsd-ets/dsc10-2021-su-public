@@ -1,0 +1,1 @@
+test = {'name': 'q1_1', 'points': 1, 'suites': [{'cases': [{'code': ">>> df_with_index.index.name\n'id'", 'hidden': False, 'locked': False}], 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}

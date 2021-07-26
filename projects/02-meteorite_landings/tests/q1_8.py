@@ -1,0 +1,11 @@
+test = {   'name': 'q1_8',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> for c in sorted(seen.columns):\n...     print(c)\ncontinent\ndecade\nis_found\nis_valid\nlatitude\nlongitude\nmass (g)\nname\nrecclass\nyear\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> seen.shape[0]\n1097', 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.all(~seen.get('is_found'))\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

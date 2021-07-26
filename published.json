@@ -827,6 +827,19 @@
                             "path": "projects/01-chicago_taxis/export.zip"
                         }
                     }
+                },
+                "02-meteorite_landings": {
+                    "metadata": {
+                        "number": 2,
+                        "released": "2021-07-25 00:00:00",
+                        "due": "2021-07-31 23:59:00",
+                        "topics": "lectures 01 through 16"
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "projects/02-meteorite_landings/export.zip"
+                        }
+                    }
                 }
             }
         },
