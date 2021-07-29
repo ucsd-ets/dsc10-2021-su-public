@@ -658,6 +658,18 @@
                             "path": "discussions/04- CI_normal_CLT/export.zip"
                         }
                     }
+                },
+                "05-final_review": {
+                    "metadata": {
+                        "number": 5,
+                        "datetime": "2021-07-29 13:00:00",
+                        "recording": null
+                    },
+                    "artifacts": {
+                        "export.zip": {
+                            "path": "discussions/05-final_review/export.zip"
+                        }
+                    }
                 }
             }
         },
